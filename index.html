@@ -3,12 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
   <title>El Blog de Carlos</title>
 </head>
 <body>
   <header>
-    <p>Setup</p>
     <nav>
+    <details open>
+      <summary>
+        Setup
+      </summary>
       <ol>
         <li>
           <a href="#google-chrome">Google Chrome</a>
@@ -23,7 +27,11 @@
           <a href="#github">Github</a>
         </li>
       </ol>
-      <p>Conceptos esenciales del Desarrollo Web</p>
+    </details>
+    <details close>
+      <summary>
+        Conceptos esenciales del desarrollo Web
+      </summary>
       <ol>
         <li>
           <a href="#que-es-html">Qué es HTML?</a>
@@ -44,6 +52,7 @@
           <a href="#que-es-css">Qué es CSS</a>
         </li>
       </ol>
+    </details>
     </nav>
   </header>
   <h1>
@@ -95,6 +104,18 @@
   <h3 id="que-es-html">Qué es HTML</h3>
   <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado
   y la estructura del contenido.</p>
+  <pre>
+   &lt;!DOCTYPE html&gt;
+   &lt;html lang="en"&gt;
+   &lt;head&gt;
+   &lt;meta charset="UTF-8"&gt;
+   &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+   &lt;title&gt;Document&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+   &lt;/body&gt;
+   &lt;/html&gt;
+  </pre>
   <h3 id="etiquetas">Etiquetas</h3>
   <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene
     características y usos diferentes aunque visualmente den un resultado similar.
