@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles-physical.css">
+  <link rel="stylesheet" href="css/styles-logical.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <title>El Blog de Carlos</title>
 </head>
@@ -67,9 +69,7 @@
   <main class="main">
     <div class="wrapper">
       <div class="main-content">
-        <h1>
-          Curso escencial HTML y CSS
-        </h1>
+        <h1>Curso escencial HTML y CSS</h1>
         <p>
           Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos,
           en el nivel 2 aprenderás de componentes y en el 3 sobre layouts.
@@ -121,17 +121,17 @@
           <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado
           y la estructura del contenido.</p>
           <pre>
-    &lt;!DOCTYPE html&gt;
-    &lt;html lang="en"&gt;
-    &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-    &lt;/body&gt;
-    &lt;/html&gt;</pre>
+&lt;/body&gt;
+&lt;/html&gt;</pre>
           <h3 id="etiquetas">Etiquetas</h3>
           <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene
             características y usos diferentes aunque visualmente den un resultado similar.
@@ -192,6 +192,31 @@
             <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
           </ul>
         </section>
+        <div class="section-content">
+          <h2>Estos son algunos videos</h2>
+          <div class="slider">
+            <scroll-container class="slider-container">
+              <scroll-page class="slider-slide" id="video-1">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/uwiTs60VoTM" title="YouTube video player"
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </scroll-page>
+              <scroll-page class="slider-slide" id="video-2">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/O9f11SXFFXE" title="YouTube video player"
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </scroll-page>
+              <scroll-page class="slider-slide" id="video-3">
+                <h1>TE EXTRAÑO BEBILLA</h1>
+              </scroll-page>
+            </scroll-container>
+            <div class="slider-bullet-list">
+              <a href="#video-1" class="slider-bullet"></a>
+              <a href="#video-2" class="slider-bullet"></a>
+              <a href="#video-3" class="slider-bullet"></a>
+            </div>
+          </div>
+        </div>
         <p>
           Si tienes alguna pregunta escríbeme a
         <a href="mailto:dummieemail@gmail.com">Contactarse via E-mail</a>
