@@ -61,8 +61,8 @@ header {
   color: var(--white30);
   position: absolute;
   inline-size: 188px;
-  /* top */
-  inset-block-start: ;
+  /*top */
+  inset-block-start:;
   /* bottom */
   inset-block-end: ;
   /* left */
@@ -130,6 +130,32 @@ hr {
 .main {
   /* border: 1px solid red; */
   /* background: red; */
+}
+
+.form input {
+  display: block;
+  background: #251f24;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  margin-block-end: 24px;
+  padding-inline: 16px;
+  padding-block: 12px;
+  color: #ffffff;
+}
+
+.form input[type="submit"] {
+  background: #157EFB;
+  border: none;
+  border-radius: 8px;
+  padding-block: 12px;
+  padding-inline: 16px;
+}
+
+input::placeholder {
+  color: var(--white20);
 }
 
 .main-content {
